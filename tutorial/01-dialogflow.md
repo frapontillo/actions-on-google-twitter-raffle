@@ -22,7 +22,7 @@ Create a new agent, and give it the name you want. A good name could be
 
 As soon as the project is created, you'll be redirected to the Intents page:
 
-![](01-dialogflow/02-Intents.png)
+![](01-dialogflow/02-intents.png)
 
 From here, click on the top right button "Create Intent".
 
