@@ -59,6 +59,7 @@ Copy the following content into the `package.json`:
     "actions-on-google": "^2.2.0",
     "firebase-admin": "^5.12.1",
     "firebase-functions": "^0.5.7",
+    "query-string": "^6.1.0",
     "twitter": "^1.7.1"
   }
 }
@@ -77,6 +78,7 @@ Copy the following skeleton code into the `index.js` panel:
 const functions = require('firebase-functions');
 const {dialogflow} = require('actions-on-google');
 const Twitter = require('twitter');
+const queryString = require('query-string');
 
 const app = dialogflow();
 
