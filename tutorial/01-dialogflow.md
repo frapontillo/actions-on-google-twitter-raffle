@@ -34,7 +34,7 @@ configuration can be handled through a visual interface.
 An Intent, in Dialogflow, is an entry point for our Agent.
 
 So let's name our Intent, shall we? Since this Intent will answer to our random
-tweet selection prompt, let's call it "Random Tweet".
+tweet selection prompt, let's call it `random-tweet`.
 
 ![](01-dialogflow/03-name-intent.png)
 
