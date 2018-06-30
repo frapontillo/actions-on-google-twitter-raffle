@@ -87,7 +87,7 @@ const randomTweetFulfillment = (conv) => {
     conv.ask('This is a default response');
 };
 
-app.intent('Random Tweet', randomTweetFulfillment);
+app.intent('random-tweet', randomTweetFulfillment);
 
 exports.dialogflowFirebaseFulfillment = functions.https.onRequest(app);
 ```
