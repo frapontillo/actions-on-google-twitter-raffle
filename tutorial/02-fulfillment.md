@@ -93,7 +93,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest(app);
 ```
 
 As you can see, we're specifying, for our `app`, that the Intent we created
-before, "Random Tweet", will be handled by the function
+before, `random-tweet`, will be handled by the function
 `randomTweetFulfillment`.
 
 All Intent handlers accept a `Conversation` object, allowing you to continue
